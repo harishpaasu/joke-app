@@ -1,0 +1,39 @@
+.jokeapp-container {
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    box-shadow: 20px 20px lightblue;
+    background-color: #ff7f50;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #24c5e6;
+}
+
+
+.jokeapp-container button{
+    background-color:yellow ;
+    height: 50px;
+    width: 100px;
+}
+.jokeapp-container button:hover{
+    cursor:pointer;
+    background-color: lightyellow;
+}
+.jokeapp-container p{
+    font-size: large;
+font-family: monospace;
+padding: 10px;
+
+}
